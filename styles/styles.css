@@ -5,12 +5,12 @@
   color: #1d1a27;
   color: #5e5b71;
 }
-.radialGradientOne{
-background: radial-gradient(#6236ff, transparent);
+.radialGradientOne {
+  background: radial-gradient(#6236ff, transparent);
 }
 
-.radialGradientTwo{
-background: radial-gradient(#ff00aa, transparent);
+.radialGradientTwo {
+  background: radial-gradient(#ff00aa, transparent);
 }
 
 .conicGradient {
@@ -21,7 +21,16 @@ background: radial-gradient(#ff00aa, transparent);
   );
 }
 
-.animateRound {
+.animateRound1 {
+  animation: animate 1s linear infinite;
+}
+.animateRound2 {
+  animation: animate 2s linear infinite;
+}
+.animateRound3 {
+  animation: animate 3s linear infinite;
+}
+.animateRound4 {
   animation: animate 4s linear infinite;
 }
 
@@ -31,6 +40,22 @@ background: radial-gradient(#ff00aa, transparent);
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+.animateZoom {
+  animation: animiTranslate 3s linear infinite;
+}
+
+@keyframes animiTranslate {
+  0% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(110%);
+  }
+  100% {
+    transform: scale(100%);
   }
 }
 
