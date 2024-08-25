@@ -5,6 +5,15 @@
   color: #1d1a27;
   color: #5e5b71;
 }
+
+
+.conicGradient{
+background: conic-gradient(
+    rgb(98, 54, 255) 0deg,
+    rgb(206, 77, 164) 40deg,
+    transparent 80deg
+  );}
+
 .animateRound {
   animation: animate 4s linear infinite;
 }
@@ -34,7 +43,7 @@
   height: 200%;
   background: conic-gradient(
     rgb(98, 54, 255) 0deg,
-    rgb(206, 77, 164)
+    rgb(206, 77, 164) 40deg,
     transparent 80deg
   );
   animation: animate 4s linear infinite;

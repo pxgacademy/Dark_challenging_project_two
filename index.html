@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Website</title>
+    <title>Dark X</title>
     <!-- CSS raw file -->
     <link rel="stylesheet" href="./styles/styles.css" />
     <!-- Google font cdn -->
@@ -33,7 +33,43 @@
   >
     <!-- header section started -->
     <header class="bg-darkColor pt-12">
-      <nav></nav>
+      <nav class="flex items-center justify-between px-12 pb-5">
+        <!-- Dropdown -->
+
+        <!-- title -->
+        <div class="flex items-center gap-3">
+          <h3 class="text-3xl md:text-4xl font-bold">Dark X</h3>
+          <img class="w-14 animateRound" src="./images/logo.png" alt="" />
+        </div>
+
+        <!-- menu list -->
+        <div class="hidden lg:block">
+          <ul class="flex gap-6 text-base text-gray-200">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Cart(0)</a></li>
+          </ul>
+        </div>
+
+        <!-- sign in and button -->
+        <div class="flex items-center gap-4 text-base text-gray-200">
+          <a href="">sign in</a>
+          <button
+            type="button"
+            class="relative z-20 bg-darckColor rounded-full flex items-center justify-center p-[2px] overflow-hidden border border-gray-700"
+          >
+            <span
+              class="bg-darkColor w-full h-full flex items-center justify-center rounded-full py-1 px-4"
+              >Get Started</span
+            >
+            <span
+              class="bg-gradient-to-r from-primaryColor to-secondaryColor w-[120%] h-[50%] absolute animateRound -z-10"
+            ></span>
+          </button>
+        </div>
+      </nav>
     </header>
     <main></main>
     <footer></footer>
