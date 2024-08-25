@@ -5,14 +5,21 @@
   color: #1d1a27;
   color: #5e5b71;
 }
+.radialGradientOne{
+background: radial-gradient(#6236ff, transparent);
+}
 
+.radialGradientTwo{
+background: radial-gradient(#ff00aa, transparent);
+}
 
-.conicGradient{
-background: conic-gradient(
+.conicGradient {
+  background: conic-gradient(
     rgb(98, 54, 255) 0deg,
     rgb(206, 77, 164) 40deg,
     transparent 80deg
-  );}
+  );
+}
 
 .animateRound {
   animation: animate 4s linear infinite;
@@ -50,9 +57,9 @@ background: conic-gradient(
   z-index: -2;
 }
 
-.boxD::after{
+.boxD::after {
   position: absolute;
-  content: '';
+  content: "";
   width: calc(100% - 10px);
   height: calc(100% - 10px);
   background: black;
